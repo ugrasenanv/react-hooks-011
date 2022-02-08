@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import ResourceList from './components/ResourceList';
 import UserList from './components/UserList';
@@ -11,14 +10,14 @@ const App = () => {
     <div>
       <div>
         <button onClick={() => setResource('posts')}>Posts</button>
-        <button onClick={() => setResource('todos')} >Todos</button>
-        <button onClick={() => setResource('users')} >Users</button>
+        <button onClick={() => setResource('todos')}>Todos</button>
+        <button onClick={() => setResource('users')}>Users</button>
       </div>
-      <UserList ></UserList>
-      <ResourceList resource={resource} ></ResourceList>
+      <UserList></UserList>
+      <ResourceList resource={resource}></ResourceList>
     </div>
   );
-}
+};
 
 export default App;
 
