@@ -13,7 +13,6 @@ const App = () => {
         <button onClick={() => setResource('todos')}>Todos</button>
         <button onClick={() => setResource('users')}>Users</button>
       </div>
-      {/* <UserList></UserList> */}
       <ResourceList resource={resource}></ResourceList>
     </div>
   );
